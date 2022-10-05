@@ -1,0 +1,416 @@
+// @include transition(all 0.5s ease);
+/* Typography */
+@font-face {
+    font-family: argent-cf;
+    src: url(../fonts/Argent_CF/ArgentCF-Regular.ttf);
+}
+
+h1,
+.h1 {
+    font-family: 'argent-cf';
+    letter-spacing: 2px;
+}
+
+h2,
+.h2 {
+    font-family: 'argent-cf';
+    letter-spacing: 2px;
+}
+
+h3,
+.h3 {
+    font-family: 'argent-cf';
+    letter-spacing: 2px;
+}
+
+h4,
+.h4 {}
+
+h5,
+.h5 {}
+
+h6,
+.h6 {}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.3;
+
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.3;
+}
+
+p {}
+
+p.small {
+    font-variant: small-caps;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.font-weight-medium {
+    font-weight: 600;
+}
+
+.img-fit {
+    @include img-fit;
+}
+
+.custom-btn {
+    color: white;
+    // text-transform: none;
+    text-transform: uppercase;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: $blue;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+// Padding
+.py-default {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pt-default {
+    padding-top: 50px;
+}
+
+.pb-default {
+    padding-bottom: 50px;
+}
+
+.px-default {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pl-default {
+    padding-left: 10%;
+}
+
+.pr-default {
+    padding-right: 10%;
+}
+
+.p-default {
+    padding: 50px 10%;
+}
+
+// Background
+.bg-l-green {
+    background-color: rgba($color: #6CAE9B, $alpha: 0.1);
+}
+
+.bg-l-blue {
+    background-color: #f0f7f5;
+}
+
+.bg-l-gray {
+    background-color: $l-gray;
+}
+
+.bg-transparent {
+    background: transparent;
+}
+
+.border-1-white {
+    border: 1px solid white;
+}
+
+// Text
+.text-black {
+    color: black;
+}
+
+.text-blue {
+    color: $blue;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.mb-header {
+    margin-bottom: 20px;
+}
+
+.mobile-only {
+    display: none;
+}
+
+// Custom HTML
+.welcome-header {
+    .sub-header {
+        color: $blue;
+        font-weight: 600;
+        margin-bottom: -3px;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        font-size: 55px;
+        font-weight: 600;
+        line-height: 1;
+    }
+}
+
+// Widgets
+.gka-bundle-2cols-image-text,
+.gka-theme-2cols-image-text {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+
+    .sub-header {
+        font-size: 14px;
+        font-weight: 600;
+        color: $blue;
+        letter-spacing: 2px;
+    }
+
+    .custom-btn {
+        margin-top: 20px;
+    }
+}
+
+.gka-theme-2cols-image-text,
+.gka-theme-2cols-content-content {
+    .left-content {
+        padding-right: 30px;
+    }
+
+    .right-content {
+        padding-left: 30px;
+    }
+}
+
+.image-wrap {
+    .image {
+        img {
+            border-radius: 25px;
+        }
+    }
+}
+
+
+.checkmark-ul {
+    margin-left: 1rem;
+    list-style: none;
+    padding-left: 0;
+
+    li {
+        position: relative;
+        padding-left: 25px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+
+        a {
+            font-style: italic;
+        }
+    }
+
+    li:before {
+        content: '';
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        background-image: url('/wp-content/themes/APPI/images/icons/check.svg');
+        background-size: cover;
+        background-position: center;
+        left: 0;
+        top: 5%;
+        // transform: translateY(-50%);
+    }
+}
+
+
+// Mobile
+@media (max-width: $screen-sm) {
+
+    h1,
+    .h1 {
+        font-size: 26px;
+    }
+
+    h3,
+    .h3 {
+        font-size: 18px;
+    }
+
+    h4,
+    .h4 {
+        font-size: 16px;
+    }
+
+
+    // Padding
+    .py-default {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .pt-default {
+        padding-top: 20px;
+    }
+
+    .pb-default {
+        padding-bottom: 20px;
+    }
+
+    .px-default {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .pl-default {
+        padding-left: 15px;
+    }
+
+    .pr-default {
+        padding-right: 15px;
+    }
+
+    .p-default {
+        padding: 20px 15px;
+    }
+
+    .gka-theme-2cols-image-text {
+        .left-content {
+            padding-right: 15px;
+        }
+
+        .right-content {
+            padding-left: 15px;
+        }
+    }
+
+    .mobile-only {
+        display: block;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    // Custom HTML
+    .welcome-header {
+        h1 {
+            font-size: 30px;
+        }
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+
+    h1,
+    .h1 {
+        font-size: 30px;
+    }
+
+    h3,
+    .h3 {
+        font-size: 22px;
+    }
+
+    h4,
+    .h4 {
+        font-size: 20px;
+    }
+
+    // Padding
+    .py-default {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .pt-default {
+        padding-top: 30px;
+    }
+
+    .pb-default {
+        padding-bottom: 30px;
+    }
+
+    .px-default {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .pl-default {
+        padding-left: 10%;
+    }
+
+    .pr-default {
+        padding-right: 10%;
+    }
+
+    .p-default {
+        padding: 30px 10%;
+    }
+
+    .gka-theme-2cols-image-text {
+        .left-content {
+            padding-right: 10%;
+        }
+
+        .right-content {
+            padding-left: 10%;
+        }
+    }
+
+    // Custom HTML
+    .welcome-header {
+        h1 {
+            font-size: 36px;
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+
+    // Custom HTML
+    .welcome-header {
+        h1 {
+            font-size: 42px;
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {}

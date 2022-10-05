@@ -1,0 +1,41 @@
+.search-form {
+    .search-field {
+        outline-offset: 0;
+        border: 1px solid black;
+        padding: 4px 10px;
+    }
+
+    .search-submit {
+        background-color: white;
+        box-shadow: none;
+        border: 1px solid black;
+        padding: 4px 20px;
+    }
+}
+
+.search-result { 
+    .page-header {
+        margin-bottom: 15px;
+        .page-title {
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+    }
+    hr {
+        margin-top: 25px;
+        margin-bottom: 30px;
+        border-top: 1px solid rgba(0, 0, 0, .3);
+    }
+    
+    article {
+        .entry-header {
+            margin-bottom: 5px;
+            .entry-title {
+                margin-bottom: 0px;
+            }
+            .entry-meta {
+                font-size: 13.5px;
+            }
+        }
+    }
+}

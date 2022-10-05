@@ -1,0 +1,75 @@
+.page-list {
+    margin-bottom: 30px;
+    .content-wrap {
+        height: 500px;
+        border-radius: 15px;
+    }
+    .content {
+        padding: 30px;
+        h1 {
+            margin-bottom: 10px;
+        }
+    }
+    .custom-btn {
+        margin-top: 15px;
+    }
+}
+
+
+.employee-list {
+    margin-bottom: 30px;
+    .image {
+        // height: 430px;
+    }
+    .content {
+        padding: 15px;
+        background-color: rgba($color: #6CAE9B, $alpha: 0.2);
+    }
+
+    .custom-btn {
+        margin-top: 10px;
+        padding: 8px 15px;
+    }
+}
+
+.bio-modal {
+    .image {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 15px;
+    }
+}
+
+.appi-family-list {
+    .image {
+        // height: 240px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+    .page-list {
+        .content-wrap {
+            height: 350px;
+        }
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {
+  
+}

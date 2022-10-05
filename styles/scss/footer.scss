@@ -1,0 +1,91 @@
+#footer{
+    color: $grey;
+    background-image: url(../../images/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 15px;
+    a {
+        color: $grey;
+    }
+
+    .logo-horizontal {
+        width: 67%;
+        // width: 85%;
+    }
+
+    .footer-form {
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .footer-bottom {
+        padding-top: 100px;
+    }
+
+    .footer-menu {
+        li {
+            margin-bottom: 5px;
+            font-weight: normal;
+        }
+    }
+
+    .footer-social {
+        a {
+            margin-right: 15px;
+            font-size: 25px;
+        }
+    }
+
+    .copyright {
+        margin-top: 30px;
+        font-size: 13px;
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+    #footer{
+        text-align: center;
+
+        .footer-form {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .footer-bottom {
+            padding-top: 50px;
+        }
+
+        .logo-vertical {
+            width: 150px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+        .footer-social {
+            margin-top: 40px;
+        }
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    #footer{
+        .footer-form {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .footer-bottom {
+            padding-top: 60px;
+        }
+
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {}

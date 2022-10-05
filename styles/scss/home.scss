@@ -1,0 +1,146 @@
+.hero-video {
+	// height: 80vh;
+	overflow: hidden;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+
+	.video-fluid {
+		width: 100%;
+		height: auto;
+	}
+	.slider-caption {
+		margin-top: 100px;
+		h1 {
+			font-size: 3.5rem;
+		}
+	}
+}
+
+.testimonial-wrap {
+	background-color: #F7981D;
+	padding: 40px 30px 20px 30px;
+	.swiper-slide {
+		padding-bottom: 30px;
+	}
+	.swiper-pagination-bullets {
+		bottom: 0;
+	}
+
+	.testimonial {
+		background-image: url(../../images/icons/qoute-left.png), url(../../images/icons/qoute-right.png);
+		background-repeat: no-repeat;
+		background-size: 100px;
+		background-position: left top, right bottom;
+		padding: 40px 0px;
+		color: white;
+	}
+
+
+}
+
+.testimonial-container {
+	.left-content {
+		padding-right: 30px;
+	}
+
+	.right-content {
+		padding-left: 30px;
+	}
+}
+
+// Smaller Mobile
+@media (max-width: 400px) {
+	.hero-video {
+		.video-fluid {
+			height: 280px;
+		}
+		.slider-caption {
+			font-size: 13px;
+			h1 {
+				font-size: 20px !important;
+			}
+			.custom-btn {
+				padding: 8px 22px;
+			}
+		}
+	}
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+	.hero-video {
+		.video-fluid {
+			height: 280px;
+		}
+		.slider-caption {
+			margin-top: 72px;
+			h1 {
+				font-size: 22px;
+			}
+		}
+	}
+
+	.testimonial-wrap {
+		margin-top: 20px;
+		padding: 20px 15px 30px 15px;
+
+		.testimonial {
+			padding: 15px 0px;
+		}
+	}
+
+	.testimonial-container {
+		.left-content {
+			padding-right: 15px;
+		}
+
+		.right-content {
+			padding-left: 15px;
+		}
+	}
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+	.hero-video {
+		height: auto;
+		.slider-caption {
+			h1 {
+				font-size: 2.5rem;
+			}
+		}
+	}
+
+	.testimonial-wrap {
+		margin-top: 20px;
+		padding: 20px 20px 30px 20px;
+
+		.testimonial {
+			padding: 15px 0px;
+		}
+	}
+
+	.testimonial-container {
+		.left-content {
+			padding-right: 20px;
+		}
+
+		.right-content {
+			padding-left: 20px;
+		}
+	}
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+	.hero-video {
+		.slider-caption {
+			h1 {
+				font-size: 3rem;
+			}
+		}
+	}
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {}

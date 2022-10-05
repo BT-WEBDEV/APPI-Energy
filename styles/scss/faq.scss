@@ -1,0 +1,82 @@
+.custom-accordion {
+    .card {
+        border: 1px solid #e0e0e0;
+        padding: 0px;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+
+        .card-header {
+            padding: 0px;
+
+            h5, h2 {
+                padding: 30px 60px 15px 60px;
+            }
+        }
+
+        .card-body {
+            padding: 0px 60px 30px 60px;
+        }
+
+        &:hover {
+            background-color: rgba(108, 174, 155, .1);
+        }
+        .open-close {
+            width: 25px;
+            float: right;
+        }
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+    .custom-accordion {
+        .card {
+            .card-header {
+                h5, h2 {
+                    padding: 30px 30px 15px 30px;
+                }
+            }
+    
+            .card-body {
+                padding: 0px 60px 30px 60px;
+            }
+        }
+
+        .card .open-close {
+            right: -15px;
+            position: relative;
+        }
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    .custom-accordion {
+        .card {
+            .card-header {
+                h5, h2 {
+                    padding: 30px 30px 15px 30px;
+                }
+            }
+    
+            .card-body {
+                padding: 0px 60px 30px 60px;
+            }
+        }
+
+        .card .open-close {
+            right: -15px;
+            position: relative;
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {
+  
+}
