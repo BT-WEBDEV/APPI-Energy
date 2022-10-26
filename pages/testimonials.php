@@ -264,8 +264,8 @@ get_header();
                                 Association of Broadcasters</p>
                             <hr>
                         </div>
-                        <div>
-                            <!-- <span class="sub-header">TESTIMONIALS</span> -->
+                        <!-- <div>
+                            <span class="sub-header">TESTIMONIALS</span> 
                             <h1 class="mb-header">Chamber of Commerce</h1>
                             <p>“I’ve been contracting my electric supply since the first year Pennsylvania’s market
                                 became competitive. Of the three consulting companies I’ve used, APPI Energy is by far
@@ -275,7 +275,7 @@ get_header();
                             <p class="font-italic font-small">Terminal Manager, Carlisle Carrier Corporation,
                                 Mechanicsburg, PA</p>
                             <hr>
-                        </div>
+                        </div> -->
                         <div>
                             <!-- <span class="sub-header">TESTIMONIALS</span> -->
                             <h1 class="mb-header">Government / Municipality</h1>
