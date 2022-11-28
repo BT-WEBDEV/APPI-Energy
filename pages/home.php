@@ -89,7 +89,7 @@ get_header();
                             <div class="content">
                                 <div>
                                     <h1>About Us</h1>
-                                    <p>APPI Energy is a full-service energy consulting firm with over 25 years of
+                                    <p>APPI Energy is a full-service energy consulting firm with over 26 years of
                                         experience in researching, recommending, and procuring customized energy
                                         solutions. Our tenure and expertise in the industry has earned the endorsements
                                         of 160 affinity groups, trade associations, and chambers of commerce.</p>
