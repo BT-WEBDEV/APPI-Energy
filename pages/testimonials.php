@@ -254,6 +254,21 @@ get_header();
                     <div class="col-md-6">
                         <div>
                             <!-- <span class="sub-header">TESTIMONIALS</span> -->
+                            <h1 class="mb-header">Banking</h1>
+                            <p>“APPI Energy is very reliable when it comes to assessing electricity procurement for your facilities. 
+                                They are honest about the energy markets and whether the timing is favorable for your needs. 
+                                They specifically told us to wait to sign a new contract as the market conditions would not 
+                                have provided the best pricing or terms. Additionally, the APPI team was able to help our 
+                                bank reach our goal of procuring 100% green power, which was important to us internally as an 
+                                organization as well as to our customers. This is the type of service you want from a provider, 
+                                a team that truly cares what your vision is as a company and one that will recommend 
+                                the best option for your future. Thank you APPI!”</p>
+                            <h4 class="mb-0">Tom Lunney</h4>
+                            <p class="font-italic font-small">Senior Vice President, FNCB Bank</p>
+                            <hr>
+                        </div>
+                        <div>
+                            <!-- <span class="sub-header">TESTIMONIALS</span> -->
                             <h1 class="mb-header">Broadcasting</h1>
                             <p>“I've been working with APPI Energy for electricity procurement since 2003. APPI Energy
                                 makes the process simple, answering all of my questions and keeping me informed about
