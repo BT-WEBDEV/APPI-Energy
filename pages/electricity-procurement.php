@@ -101,8 +101,7 @@ get_header();
 						</div>
 					</div>
 					<div class="col-md-6 order-md-1">
-						<p>Our work doesn't end when the contract is signed. Our in-house, full-service customer service
-							team is here to help.</p>
+						<p>Our work doesn't end when the contract is signed. Our in-house, full-service client services team is here to help.</p>
 						<p>Our team can:</p>
 						<ul class="checkmark-ul">
 							<li>Assist with account adjustments, including adding or dropping meters, to ensure a smooth
